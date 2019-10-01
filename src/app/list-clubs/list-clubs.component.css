@@ -1,0 +1,24 @@
+
+
+#users {
+	border: 1px solid rgb(114, 14, 14);
+  border-collapse: collapse;
+	width: 100%;
+}
+
+#users td,
+#users th {
+	padding: 8px;
+	text-align: left;
+}
+
+#users tr:nth-child(even) {
+	background-color: #fffefe;
+}
+
+#users th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	border: 1px solid rgb(114, 14, 14);
+}

@@ -1,0 +1,150 @@
+/* 
+*{ box-sizing: border-box;  }
+
+
+form{
+    max-width: 800px;
+    margin:10px auto;
+    padding:10px 20px; 
+    font-family: 'Nunito', sans-serif; 
+    color: #384047; 
+    background: #f4f7f8; 
+    border-radius: 8px; 
+} 
+.text
+
+{
+    font-family:'Comic Sans';
+    font-size: x-large;
+    font-weight: bold;
+color: darkblue;
+}
+h3 {
+    margin: 0 0 30px 0; 
+    text-align: left; 
+    font-weight: 300px; 
+}
+
+
+h2{
+
+    border-radius: 10px; 
+    padding: 19px 39px 18px 39px; 
+    color: #39364f; 
+    font-family: 'Nunito', sans-serif; 
+    font-weight: 400; 
+}
+
+input[type="text"], input[type="url"],input[type="date"], input[type="time"], textarea, select{
+background: rgba(255,255,255,0.1);
+border:none;
+font-size:15.5px; 
+height:auto; 
+margin:0;
+outline:0;
+padding:15px;
+width:100%;
+background-color: #e8eeef; 
+color:#8a97a0;
+box-shadow:0 1px 0 rgb(0,0,0,0.3) inset;
+margin-bottom:30px; 
+
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(138,151,178,1); 
+    border: 1px solid rgba(138,151,178,1);
+}
+
+input[type="date"], input[type="time"] {
+    margin: 0 4px 8px 0; 
+} 
+
+select{
+    padding:6px; 
+    height: 32px;
+    border-radius:2px; 
+}
+
+legend{
+    display: block; 
+    margin-bottom: 8px; 
+}
+
+button{
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #8A97B2; 
+    font-size: 18px; 
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px; 
+    width: 100%;
+    border: 1px solid #8A97B2; 
+    border-width: 1px 1px 3px; 
+    margin-bottom: 10px; 
+} */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .textarea {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .header {
+    padding: 40px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+  .text
+
+{
+    font-family:'Comic Sans';
+    font-size: medium;
+    font-weight: bold;
+color: darkblue;
+}
+
+.textheader
+
+{
+    font-family:'Comic Sans';
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+color: darkblue;
+float: left;
+}
+  
+  /* Increase the font size of the h1 element */
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .image{
+      height: 100px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .column1 {
+    float: left;
+
+  }
+  
+  
+  .column2 {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    height: 300px; 
+}

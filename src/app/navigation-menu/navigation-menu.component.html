@@ -1,0 +1,58 @@
+<div>
+
+
+<mat-toolbar class="navlinks">
+    <mat-toolbar-row>
+
+  <span [matMenuTriggerFor]="bookmenu">
+    <mat-icon matListIcon>home</mat-icon> Home
+</span>
+    <mat-menu #bookmenu="matMenu" class="book-menu">
+        <button mat-menu-item routerLink = "/listUsers" routerLinkActive="active">Information</button>
+        <!-- <button mat-menu-item routerLink ="/addUser" routerLinkActive="active">Add a New User</button>
+        <button mat-menu-item routerLink ="/listClubs" routerLinkActive="active">List Clubs</button>
+        <button mat-menu-item routerLink ="/addClub" routerLinkActive="active">Add a New Club</button> -->
+    </mat-menu>
+
+   
+
+        <span [matMenuTriggerFor]="votemenu">
+            <mat-icon matListIcon>event</mat-icon> Events
+        </span>
+            <mat-menu #votemenu="matMenu" class="vote-menu">
+                <button mat-menu-item routerLink = "/add-book" routerLinkActive="active">View Events </button>
+          
+            </mat-menu>
+          <span [matMenuTriggerFor]="visualmenu">
+              <mat-icon matListIcon>group</mat-icon> Conference Rooms
+          </span>
+              <mat-menu #visualmenu="matMenu" class="visual-menu">
+
+              </mat-menu>
+          <span [matMenuTriggerFor]="contactmenu">
+              <mat-icon matListIcon>account_circle</mat-icon> Contact Us 
+          </span>
+              <mat-menu #contactmenu="matMenu" class="contact-menu">
+
+              </mat-menu>
+
+              <mat-form-field>
+                  <input matInput placeholder="">
+                </mat-form-field>
+                <i class="material-icons">
+                    search
+                    </i>
+          <!-- <mat-menu #booklistmenu="matMenu" class="booklist-menu">
+              <button mat-menu-item routerLink = "/books" routerLinkActive="active">Book List</button>
+
+          </mat-menu>
+ -->
+
+
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+    </div>
+
+
